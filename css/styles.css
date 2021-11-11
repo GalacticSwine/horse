@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+
+h2 {
+  margin: auto 20px;
+}
+
+nav {
+  background-color: blueviolet;
+  margin: 0;
+  padding: 0px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navli {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  margin: 10px;
+}
+
+.horselogo {
+  height: 40px;
+  width: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+h1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom, #28ffbf, #bcffb9 30%);
+  position: relative;
+}
+
+.horseimg {
+  height: 50vh;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.about {
+  background-color: #32302d;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  background-color: #f7e6ad;
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: right;
+  font-size: 17px;
+}
+
+.card {
+  background-image: linear-gradient(to bottom, #28ffbf, #bcffb9 30%);
+  height: 400px;
+  width: 300px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.glasshorse {
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+}
+.hortex {
+  margin: 5px;
+  display: flex;
+}
+
+.trainer {
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 1px;
+}
+
+.traintex {
+  margin: 5px;
+  display: flex;
+}
+
+.horselink {
+  margin: 0;
+  padding: 0;
+}
+
+.footerlink {
+  display: flex;
+  justify-content: right;
+  justify-content: space-around;
+  width: 80px;
+  margin: 10px;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  margin: 10px;
+}

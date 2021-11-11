@@ -1,0 +1,54 @@
+body{
+margin: 0;
+overscroll-behavior: none;
+overflow-x: hidden;
+max-width: 100%;
+
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 100px;
+}
+
+.hero{
+height: 100vh;
+width: 100vw;
+background-image: linear-gradient(to top right, blue ,red);
+
+}
+
+.midsection{
+    display: flex;
+    justify-content: center;
+}
+
+a:link {
+ color: red;
+ text-decoration: none;
+}
+
+a:visited{
+ color: green;
+}
+
+button {
+ border-style: solid;
+ background-color: pink;
+ height: 30px;
+ width: 150px;
+ font-size: 20px;
+ border-radius: 10px;
+ box-shadow: 5px 5px 10px;
+}
+
+button:hover{
+    background-color: yellow;
+    
+}
+
+button:active{
+    background-color: red;
+    box-shadow: 2px 2px 5px;
+}
